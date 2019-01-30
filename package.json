@@ -1,5 +1,5 @@
 {
-  "name": "delay-values",
+  "name": "node-delay-values",
   "version": "0.0.1",
   "description": "Delay and get values in callback. Very useful in for-loop.",
   "main": "main.js",
@@ -13,7 +13,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://github.com/animatedcreativity/delay-values"
+    "url": "https://github.com/animatedcreativity/node-delay-values"
   },
   "license": "MIT",
   "keywords": [

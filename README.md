@@ -1,10 +1,10 @@
-# delay-values
+# node-delay-values
 Delay and get values in callback. Very useful in for-loop.
 
 **Usage:**
 
 ```
-var delay = require("delay-values");
+var delay = require("node-delay-values");
 delay(time, values).then(function(values) {
   // do something with values
 });
@@ -16,7 +16,7 @@ delay(time, values).then(function(values) {
 **Example 1:**
 
 ```
-var delay = require("delay-values");
+var delay = require("node-delay-values");
 delay(2000, {product: "XYZ"}).then(function(values) {
   console.log(values); // do something with values after 2 seconds.
 });
@@ -25,7 +25,7 @@ delay(2000, {product: "XYZ"}).then(function(values) {
 **Example 2 (for-loop):**
 
 ```
-var delay = require("delay-values");
+var delay = require("node-delay-values");
 for (var i=0; i<=9; i++) {  
   var plus2 = i + 2;
   delay(2000, {index: i, plus2: plus2}).then(function(values) {
