@@ -1,7 +1,7 @@
 {
   "name": "node-delay-values",
-  "version": "0.0.2",
-  "description": "Delay and get values in callback. Very useful in for-loop.",
+  "version": "0.0.3",
+  "description": "Delay and get values in callback. Very useful in loops.",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
