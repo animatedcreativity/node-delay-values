@@ -1,0 +1,28 @@
+{
+  "name": "delay-values",
+  "version": "0.0.1",
+  "description": "Delay and get values in callback. Very useful in for-loop.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/animatedcreativity/delay-values"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "delay",
+    "values",
+    "for",
+    "loop",
+    "wait",
+    "timeout"
+  ]
+}
